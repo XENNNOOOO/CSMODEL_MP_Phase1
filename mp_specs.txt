@@ -1,0 +1,65 @@
+6.1 Phase 1
+The following steps must be accomplished for the first phase of the project. Note that these steps do not have to be done
+strictly in a sequential order.
+
+6.1.1 Dataset Description
+Each group will work on a real-world dataset. Follow your instructor’s directives on what dataset you will be working on. If
+your instructor lets you choose your own dataset, make sure that you have their approval, and that the dataset you choose
+is obtained ethically and legally, in accordance with data privacy laws.
+The group must familiarize themselves with their dataset. This includes not only knowing the attributes of the dataset, but
+also understanding how it was collected, recognizing the possible biases and implications of the sampling method, and other
+factors that are relevant to the potential insights that could be generated from the data. Note that you may need to look at
+other related sources for this part of the project.
+
+In the Notebook, the following information should be stated in a concise manner:
+    • A clear, concise description of the dataset
+    • How the dataset was collected
+    • Potential implications of how the data was collected on the insights that will be generated
+
+
+• Struture of the data
+    – What each row and column represents (if tabular data)
+    – Number of observations
+    – What attributes or features are present in each observation
+
+• Brief description of the different attributes in the dataset (if structured), or brief description of the nature of each
+observation in the data (if unstructured)
+
+6.2 Data Cleaning
+Ensure the integrity of the dataset by applying the relevant cleaning steps. For tabular data, this might entail addressing
+the following:
+
+    • Multiple representations of the same categorical value
+    • Incorrect datatypes
+    • Missing data
+    • Duplicate data
+    • Inconsistent formatting
+    • Outliers
+
+For unstructured data, you must check for potentially noise or unwanted data, or apply a modelling scheme to convert them
+first into a tabular format.
+
+In the Notebook, explain all the procedures applied during the data cleaning process.
+
+6.2.1 Research Question & Exploratory Data Analysis
+You must come up with a general research question that you want to explore using the dataset that you have.
+For CSMODEL, please abide by the following guidelines when coming up with the research question:
+    • The question does not necessarily have to be groundbreaking, but it must be something that the group is genuinely
+    interested in.
+    • The question should not be too specific (i.e., focused only on a few variables); it should be something that warrants
+    an extensive exploration of the dataset. For example, instead of “Is the average sleep duration correlated with poor
+    academic performance?”, consider “What are the factors associated with poor academic performance?” If your question
+    is too specific, you will have difficulty fulfilling the minimum requirements for the project.
+    • The question should be feasible to answer given the dataset/s that you have (obviously).
+
+The identification of the research question goes hand-in-hand with the exploratory data analysis (EDA). Sometimes, the
+EDA can lead you to interesting research questions. On the other hand, sometimes you have an initial research question,
+which is then refined or confirmed by the EDA. In this project, you don’t have to strictly do one before the other. You must
+iterate between the EDA and question formulation until you come up with a solid angle that is supported by the data.
+
+The whole process must cover at least three (3) exploratory data analysis questions. Explicitly state the questions in
+the Notebook. Having more than 3 questions is acceptable, especially if 3 questions are not enough to get a sufficient
+understanding of your data.
+
+Answer each EDA question using appropriate numerical summaries (measures of central tendency, measures of dispersion,
+correlation) and visualizations (histograms, distribution plots, box plots)
